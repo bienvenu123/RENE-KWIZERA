@@ -48,7 +48,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-inner container">
-        <a href="#" className="logo">.DEV</a>
+        <a href="#top" className="logo">.DEV</a>
         <nav className="nav">
           {navLinks.map((link) => (
             <a key={link.label} href={link.href} className="nav-link">{link.label}</a>
